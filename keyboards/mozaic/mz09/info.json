@@ -1,0 +1,35 @@
+{
+	"keyboard_name": "NINER",
+	"manufacturer": "Mozaic®",
+    "url": "https://shop.mozaic.dev",
+    "maintainer": "mozaic-dev",
+	"usb": {
+		"vid": "0x4D5A",
+		"pid": "0x0952",
+		"device_version": "0.1.0"
+	},
+	"processor": "atmega32u2",
+	"bootloader": "atmel-dfu",
+	"diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["D5", "C2", "D0"],
+		"rows": ["D2", "D3", "D4"]
+    },
+    "layouts": {
+		"LAYOUT": {
+            "layout": [
+				{"label":"M1", "matrix": [0, 0], "x":0, "y":0},
+				{"label":"M2", "matrix": [0, 1], "x":1, "y":0},
+				{"label":"M3", "matrix": [0, 2], "x":2, "y":0},
+
+				{"label":"M4", "matrix": [1, 0], "x":0, "y":1},
+				{"label":"M5", "matrix": [1, 1], "x":1, "y":1},
+				{"label":"M6", "matrix": [1, 2], "x":2, "y":1},
+
+				{"label":"M7", "matrix": [2, 0], "x":0, "y":2},
+				{"label":"M8", "matrix": [2, 1], "x":1, "y":2},
+				{"label":"M9", "matrix": [2, 2], "x":2, "y":2}
+			]
+        }
+    }
+}
